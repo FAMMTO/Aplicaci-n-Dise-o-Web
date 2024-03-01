@@ -1,0 +1,15 @@
+public function index()
+{
+    return view('productos.index');
+}
+
+public function create()
+{
+    return view('productos.create');
+}
+
+public function edit(Producto $producto)
+{
+    return view('productos.edit', compact('producto'));
+}
+// Otros métodos del controlador...
