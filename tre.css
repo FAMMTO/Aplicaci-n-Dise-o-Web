@@ -1,0 +1,13 @@
+vue create chuck-jokes-vue
+cd chuck-jokes-vue
+
+npm run serve
+
+
+git init
+git add .
+git commit -m "Inicializar proyecto Vue Chuck Jokes"
+git remote add origin <URL_del_repositorio_en_GitHub>
+git push -u origin master
+
+
